@@ -1,5 +1,5 @@
 /* query for larger screens */
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   body {
     background-color: #e9e9e9;
   }
