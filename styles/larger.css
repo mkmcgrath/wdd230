@@ -14,12 +14,12 @@
 
   nav {
     flex-direction: row;
+    display: inline;
   }
 
   nav ul li {
     margin: 20px;
     padding: 20px;
-    display: inline;
   }
 
   main {
