@@ -1,0 +1,42 @@
+/* query for larger screens */
+@media (min-width: 768px) {
+  body {
+    background-color: #e9e9e9;
+  }
+
+  header {
+    padding: 40px;
+  }
+
+  img#profile-image {
+    width: 300px;
+  }
+
+  nav {
+    flex-direction: row;
+  }
+
+  nav ul li {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+
+  main {
+    margin: 40px auto;
+    padding: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    flex: 0 1 calc(50% - 10px);
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer {
+    padding: 30px;
+  }
+}
