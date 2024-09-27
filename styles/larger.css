@@ -14,7 +14,6 @@
 
   nav {
     flex-direction: row;
-    display: inline;
   }
 
   nav ul li {
