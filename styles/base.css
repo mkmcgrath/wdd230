@@ -67,8 +67,6 @@ main {
 }
 
 .card {
-  display: grid;
-  grid-template-columns: 1fr; /* single column layout */
   margin-bottom: 20px;
   padding: 15px;
   background-color: #f9f9f9;

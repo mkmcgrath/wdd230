@@ -32,8 +32,6 @@
   .card {
     flex: 0 1 calc(50% - 10px);
     margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
 
   footer {
