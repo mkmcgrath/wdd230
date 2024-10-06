@@ -37,15 +37,15 @@
   }
 
   #menu {
-    display: none; /* Hide hamburger button on larger screens */
+    display: none;
   }
 
   .navigation {
-    flex-direction: row; /* Horizontal layout for navigation */
+    flex-direction: row;
   }
 
   .navigation a {
-    display: block; /* Show all links */
+    display: block;
     flex: 1 1 100%;
   }
 }

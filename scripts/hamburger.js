@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const navigation = document.querySelector(".navigation");
 
   hamButton.addEventListener("click", () => {
-    navigation.classList.toggle("open"); // Toggles the menu links
-    hamButton.classList.toggle("open"); // Toggles the hamburger icon
+    navigation.classList.toggle("open");
+    hamButton.classList.toggle("open");
   });
 });
