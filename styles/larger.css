@@ -25,9 +25,6 @@
   main {
     margin: 40px auto;
     padding: 40px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   .card {
@@ -37,5 +34,18 @@
 
   footer {
     padding: 30px;
+  }
+
+  #menu {
+    display: none; /* Hide hamburger button on larger screens */
+  }
+
+  .navigation {
+    flex-direction: row; /* Horizontal layout for navigation */
+  }
+
+  .navigation a {
+    display: block; /* Show all links */
+    flex: 1 1 100%;
   }
 }
