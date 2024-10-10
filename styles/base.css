@@ -75,6 +75,7 @@ main {
   border-radius: 5px;
 }
 
+/* display not inline?? flex maybe?? */
 .card ul li p {
   display: inline;
 }
