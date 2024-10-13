@@ -21,7 +21,7 @@
   nav ul {
     display: flex;
     flex-direction: row;
-    font-size: 16pt;
+    font-size: 14pt;
   }
 
   .navigation {
