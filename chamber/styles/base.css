@@ -14,12 +14,12 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
-  color: #3a5d24; /* Cactus Green */
+  color: #777777; /* Cactus Green */
 }
 
 a {
   text-decoration: none;
-  color: #3a5d24;
+  color: #fff;
 }
 
 button,
@@ -66,6 +66,7 @@ footer {
 /* Main Content */
 main {
   padding: 15px;
+  background-color: #ebdcca;
 }
 
 h2 {
@@ -75,4 +76,56 @@ h2 {
 p {
   font-size: 1rem;
   line-height: 1.5;
+}
+
+/* Hero Section and Overlay */
+#hero {
+  position: relative;
+  width: 100%;
+}
+
+#hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(58, 93, 36, 0.7); /* Semi-transparent Cactus Green */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.overlay h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.overlay p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.overlay .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3a5d24; /* Cactus Green */
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.overlay .button:hover {
+  background-color: #2e4720;
 }
