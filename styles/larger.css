@@ -5,22 +5,30 @@
   }
 
   header {
-    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header img {
+    margin-right: 20px;
   }
 
   img#profile-image {
-    width: 300px;
+    width: 100px;
   }
 
-  nav {
+  nav ul {
+    display: flex;
     flex-direction: row;
+    font-size: 16pt;
   }
 
   /* make it not inline??? idk??? */
   nav ul li {
-    margin: 20px;
-    padding: 20px;
-    display: inline;
+    margin: 10px;
+    padding: 10px;
+    display: block;
   }
 
   main {
@@ -28,9 +36,34 @@
     padding: 40px;
   }
 
-  .card {
-    flex: 0 1 calc(50% - 10px);
-    margin-bottom: 20px;
+  main h2 {
+    text-decoration: underline;
+  }
+
+  .card ul li {
+    display: flex;
+    align-items: center;
+  }
+
+  .card ul li {
+    flex-direction: row;
+  }
+
+  .card ul li p {
+    margin: 10px; /* Adds spacing around the "|" separator */
+  }
+
+  .card a:link {
+    color: darkblue;
+  }
+
+  .card a:visited {
+    color: darkblue;
+  }
+
+  .weekitems {
+    align-content: center;
+    position: relative;
   }
 
   footer {
@@ -39,14 +72,5 @@
 
   #menu {
     display: none;
-  }
-
-  .navigation {
-    flex-direction: row;
-  }
-
-  .navigation a {
-    display: block;
-    flex: 1 1 100%;
   }
 }
