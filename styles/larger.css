@@ -30,9 +30,12 @@
 
   /* make it not inline??? idk??? */
   nav ul li {
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: block;
+    text-align: justify;
+    white-space: nowrap;
   }
 
   main {
