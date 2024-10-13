@@ -24,6 +24,10 @@
     font-size: 16pt;
   }
 
+  .navigation {
+    justify-content: center;
+  }
+
   /* make it not inline??? idk??? */
   nav ul li {
     margin: 10px;
