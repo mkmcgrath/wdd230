@@ -39,12 +39,22 @@ nav ul {
   margin: 0;
 }
 
+/*
 nav ul li {
   margin-right: 20px;
   margin-bottom: 10px;
   flex: 1 1 100%;
   justify-content: center;
   align-content: center;
+}
+*/
+nav ul li {
+  margin: 0px;
+  padding-left: 1px;
+  padding-right: 1px;
+  display: block;
+  text-align: justify;
+  white-space: nowrap;
 }
 
 nav ul li a {
@@ -75,9 +85,14 @@ main {
   border-radius: 5px;
 }
 
+.card ul li {
+  display: flex;
+  align-items: center;
+}
+
 /* display not inline?? flex maybe?? */
 .card ul li p {
-  display: inline;
+  display: flex;
 }
 
 .card h3 {
