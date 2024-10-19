@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const hamButton = document.querySelector("#menu");
+  const hamButton = document.querySelector("#hamburgerMenu");
   const navigation = document.querySelector(".navigation");
 
   hamButton.addEventListener("click", () => {
