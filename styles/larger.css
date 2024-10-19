@@ -68,16 +68,11 @@
     color: darkblue;
   }
 
-  .weekitems {
-    align-content: center;
-    position: relative;
-  }
-
   footer {
     padding: 30px;
   }
 
-  #menu {
+  #hamburgerMenu {
     display: none;
   }
 }

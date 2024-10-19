@@ -111,7 +111,7 @@ footer p {
   margin: 5px 0;
 }
 
-#menu {
+#hamburgerMenu {
   font-size: 3rem;
   border: 0;
   background: none;
@@ -121,11 +121,11 @@ footer p {
   right: 0;
 }
 
-#menu::before {
+#hamburgerMenu::before {
   content: "☰";
 }
 
-#menu.open::before {
+#hamburgerMenu.open::before {
   content: "x";
 }
 
@@ -156,7 +156,7 @@ footer p {
 }
 
 @media (min-width: 37.5em) {
-  #menu {
+  #hamburgerMenu {
     display: none;
   }
 
