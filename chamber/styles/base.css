@@ -35,7 +35,7 @@ button,
   font-size: 1rem;
 }
 
-.events-card {
+.card-container {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -48,6 +48,8 @@ button,
   margin: 10px; /* Margin around cards */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   flex: 1 1 calc(100% - 20px); /* Full width on mobile */
+  justify-content: center;
+  text-align: center;
 }
 
 header {

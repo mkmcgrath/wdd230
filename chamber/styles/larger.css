@@ -12,12 +12,12 @@
     font-size: 2.8rem;
   }
 
-  .events-card {
+  .card-container {
     flex-direction: row;
   }
 
   .card {
-    flex: 1 1 calc(33.33% - 20px); /* Maintain 3 cards in a row on larger screens */
+    flex: 1 1 calc(33.33% - 20px);
   }
 
   nav a {
