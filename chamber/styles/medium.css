@@ -6,6 +6,13 @@
 
   header h1 {
     font-size: 2.2rem;
+    padding: 40px;
+  }
+  .events-card {
+    flex-direction: row;
+  }
+  .card {
+    flex: 1 1 calc(33.33% - 20px); /* 3 cards in a row on medium screens */
   }
 
   nav a {
@@ -25,5 +32,24 @@
   .button {
     font-size: 1.2rem;
     padding: 12px 20px;
+  }
+  #hamburgerMenu {
+    display: none;
+  }
+
+  .navigation {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .navigation a {
+    display: block;
+    flex: 1 1 100%;
+  }
+  .navigation ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
   }
 }

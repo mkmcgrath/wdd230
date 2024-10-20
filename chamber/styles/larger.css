@@ -4,27 +4,71 @@
     padding: 30px;
   }
 
+  header {
+    padding: 50px;
+  }
+
   header h1 {
     font-size: 2.8rem;
   }
 
+  .events-card {
+    flex-direction: row;
+  }
+
+  .card {
+    flex: 1 1 calc(33.33% - 20px); /* Maintain 3 cards in a row on larger screens */
+  }
+
   nav a {
     padding: 20px;
-    display: inline-block;
   }
 
   main {
     padding: 30px;
   }
 
-  h2 {
-    font-size: 2.2rem;
+  .overlay h2 {
+    font-size: 42px;
+  }
+
+  .overlay .button {
+    padding: 18px 28px;
+    font-size: 24px;
+  }
+
+  .overlay p {
+    font-size: 25px;
   }
 
   button,
   .button {
     font-size: 1.5rem;
     padding: 15px 25px;
+  }
+
+  #hamburgerMenu {
+    display: none;
+  }
+
+  .navigation {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .navigation a {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    flex: 1 1 100%;
+  }
+
+  .navigation ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
   }
 
   footer {

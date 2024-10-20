@@ -52,7 +52,7 @@ nav ul li {
   margin: 0px;
   padding-left: 1px;
   padding-right: 1px;
-  display: block;
+  display: flex;
   text-align: justify;
   white-space: nowrap;
 }

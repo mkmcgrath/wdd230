@@ -26,10 +26,16 @@
     <header>
       <h1>Phoenix Chamber of Commerce</h1>
       <!-- Your main navigation here -->
+      <button id="hamburgerMenu"></button>
     </header>
 
-    <nav>
-      <!-- Navigation links -->
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./index.html">Discover</a></li>
+        <li><a href="./index.html">Resources</a></li>
+        <li><a href="./index.html">Join</a></li>
+      </ul>
     </nav>
 
     <main>
@@ -47,21 +53,25 @@
         </div>
       </section>
 
-      <!-- Other sections below remain the same -->
-
       <section id="current-events">
         <h2>Current Events</h2>
-        <ul>
-          <li>Networking Luncheon - October 20, 2024</li>
-          <li>Business Expo - November 15, 2024</li>
-          <li>Annual Awards Gala - December 5, 2024</li>
-        </ul>
+        <div class="events-card">
+          <div class="card">
+            <p>Networking Luncheon - October 20, 2024</p>
+          </div>
+          <div class="card">
+            <p>Business Expo - November 15, 2024</p>
+          </div>
+          <div class="card">
+            <p>Annual Awards Gala - December 5, 2024</p>
+          </div>
+        </div>
       </section>
 
       <section id="weather-card">
         <h2>Weather in Phoenix</h2>
         <div class="weather-card">
-          <p><strong>75°F</strong>, Sunny</p>
+          <p><strong>120°F</strong>, Sunny</p>
           <p>October 12, 2024</p>
         </div>
       </section>
@@ -89,7 +99,17 @@
     </main>
 
     <footer>
-      <p>© 2024 Phoenix Chamber of Commerce</p>
+      <p>
+        &copy;
+        <span id="currentYear"></span>
+        Phoenix Chamber of Commerce — <span id="lastModified"></span>
+      </p>
+      <p>
+        NOTE: This is a mock design for a web design class (WDD 230). This page
+        has no affiliation with Phoenix Chamber of Commerce
+      </p>
     </footer>
+    <script src="./scripts/getdates.js"></script>
+    <script src="./scripts/hamburger.js"></script>
   </body>
 </html>

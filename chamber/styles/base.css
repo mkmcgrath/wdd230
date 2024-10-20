@@ -7,14 +7,17 @@ body {
   color: #333;
 }
 
-h1,
+h1 {
+  color: #fff;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
-  color: #777777; /* Cactus Green */
+  color: #333;
 }
 
 a {
@@ -32,9 +35,24 @@ button,
   font-size: 1rem;
 }
 
+.events-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #fff; /* Card background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding inside cards */
+  margin: 10px; /* Margin around cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  flex: 1 1 calc(100% - 20px); /* Full width on mobile */
+}
+
 header {
   background-color: #3a5d24;
-  padding: 15px;
+  padding: 5px;
   text-align: center;
   color: white;
 }
@@ -42,18 +60,92 @@ header {
 header h1 {
   font-size: 1.8rem;
   margin: 0;
+  width: 80%;
+  justify-self: center;
 }
 
 nav {
   background-color: #333;
   padding: 10px;
   text-align: center;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin: 0px;
+  display: flex;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 nav a {
   color: white;
   display: block;
-  padding: 10px;
+  padding: 0px;
+}
+
+#hamburgerMenu {
+  font-size: 2rem;
+  border: 0;
+  background: none;
+  color: #ffffff;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  display: flex;
+}
+
+#hamburgerMenu::before {
+  content: "☰";
+}
+
+#hamburgerMenu.open::before {
+  content: "x";
+}
+
+.navigation {
+  display: none;
+  flex-direction: row;
+  list-style: none;
+  background-color: #333;
+  color: #fff;
+}
+
+.navigation.open {
+  display: flex;
+  position: relative;
+  justify: center;
+}
+
+.navigation.open ul {
+  margin: 0px;
+  padding: 0px;
+}
+.navigation ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.navigation ul a {
+  display: flex;
+  padding: 5px;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.navigation a:hover {
+  background-color: #bbb;
+  color: #333;
+  font-weight: 700;
+}
+
+.open a {
+  display: block;
+  justify-content: center;
 }
 
 footer {
@@ -67,6 +159,7 @@ footer {
 main {
   padding: 15px;
   background-color: #ebdcca;
+  position: relative;
 }
 
 h2 {
@@ -95,11 +188,15 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(58, 93, 36, 0.7); /* Semi-transparent Cactus Green */
+  background-color: rgba(58, 93, 36, 0.8); /* Semi-transparent Cactus Green */
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 2px;
   border-radius: 10px;
+  height: 80%;
+  width: 80%;
+  align-content: center;
+  overflow: hidden;
 }
 
 .overlay h2 {
