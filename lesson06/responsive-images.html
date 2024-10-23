@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="responsive-images.html" />
+    <meta property="og:description" content="responsive-images" />
+    <meta
+      property="og:image"
+      content="https://mkmcgrath.github.io/wdd230/images/placeholder.jpg"
+    />
+    <meta property="og:url" content="./index.html" />
+    <meta property="og:type" content="website" />
+
+    <title>responsive-images</title>
+    <meta name="description" content="WDD 230 - placeholder" />
+    <meta name="author" content="Matt" />
+    <link rel="stylesheet" href="./styles/responsive-images.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <h1>responsive-images</h1>
+    </header>
+
+    <nav class="navigation">
+      <button id="hamburgerMenu"></button>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="hero">
+        <picture>
+          <source
+            srcset="./images/hero-small.webp"
+            media="(max-width: 500px)"
+          />
+          <source
+            srcset="./images/hero-medium.webp"
+            media="(max-width: 1000px)"
+          />
+          <img
+            src="./images/hero-large.webp"
+            alt="manhattan new york city temple"
+            width="1500"
+            height="750"
+          />
+        </picture>
+      </div>
+      <h2>WDD 230: Web Frontend Development - responsive-images</h2>
+      <section class="card"></section>
+    </main>
+    <footer>
+      <p>footer</p>
+    </footer>
+    <script src="./scripts/getdates.js"></script>
+  </body>
+</html>
