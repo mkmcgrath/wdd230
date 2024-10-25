@@ -220,7 +220,7 @@ p {
 }
 
 .overlay .button {
-  display: inline-block;
+  display: relative;
   padding: 10px 20px;
   background-color: #3a5d24; /* Cactus Green */
   color: white;

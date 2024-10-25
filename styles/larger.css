@@ -28,7 +28,6 @@
     justify-content: center;
   }
 
-  /* make it not inline??? idk??? */
   nav ul li {
     margin: 0px;
     padding-left: 10px;
@@ -38,9 +37,25 @@
     white-space: nowrap;
   }
 
+  .hero img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    max-width: 960px;
+  }
+
+  .heropicture {
+    position: relative;
+  }
+
+  .herolabel p {
+    padding: 0.25rem;
+    font-size: 2.5rem;
+    text-shadow: 4px 4px 10px black;
+  }
   main {
-    margin: 40px auto;
     padding: 40px;
+    padding-top: 0px;
   }
 
   main h2 {
