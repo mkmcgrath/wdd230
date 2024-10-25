@@ -74,4 +74,9 @@
   footer {
     padding: 30px;
   }
+
+  footer p:first-of-type {
+    width: 80%;
+    justify-self: center;
+  }
 }
