@@ -77,6 +77,33 @@ main {
   flex-direction: column;
 }
 
+.hero img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.herolabel {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  background: radial-gradient(#0b1419, #0b1419);
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  padding: 1.5rem;
+  opacity: 1;
+  width: fit-content;
+  border-radius: 35px;
+}
+
+.herolabel p {
+  margin: 0;
+  padding: 0.25rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 4px 4px 10px black;
+}
+
 .card {
   margin-bottom: 20px;
   padding: 15px;
