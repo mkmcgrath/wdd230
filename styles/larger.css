@@ -1,4 +1,4 @@
-/* query for larger screens */
+/* Query for larger screens */
 @media (min-width: 640px) {
   body {
     background-color: #e9e9e9;
@@ -53,6 +53,7 @@
     font-size: 2.5rem;
     text-shadow: 4px 4px 10px black;
   }
+
   main {
     padding: 40px;
     padding-top: 0px;
@@ -65,9 +66,6 @@
   .card ul li {
     display: flex;
     align-items: center;
-  }
-
-  .card ul li {
     flex-direction: row;
   }
 

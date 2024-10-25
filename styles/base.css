@@ -1,7 +1,7 @@
-/* google font import */
+/* Google font import */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap");
 
-/* styles */
+/* Global styles */
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
@@ -20,7 +20,7 @@ header {
 
 img#profile-image {
   border-radius: 1%;
-  width: 220px; /*  this wdith is good size for now */
+  width: 220px; /* This width is good size for now */
 }
 
 li {
@@ -39,15 +39,6 @@ nav ul {
   margin: 0;
 }
 
-/*
-nav ul li {
-  margin-right: 20px;
-  margin-bottom: 10px;
-  flex: 1 1 100%;
-  justify-content: center;
-  align-content: center;
-}
-*/
 nav ul li {
   margin: 0px;
   padding-left: 1px;
@@ -66,6 +57,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* Main content styles */
 main {
   max-width: none;
   margin: 20px auto;
@@ -99,6 +91,7 @@ div.hero {
   width: fit-content;
   border-radius: 30px;
 }
+
 .herolabel p {
   margin: 0;
   padding: 0rem;
@@ -109,6 +102,7 @@ div.hero {
   white-space: nowrap;
 }
 
+/* Card section styles */
 .card {
   margin-bottom: 20px;
   padding: 15px;
@@ -122,7 +116,6 @@ div.hero {
   align-items: center;
 }
 
-/* display not inline?? flex maybe?? */
 .card ul li p {
   display: flex;
 }
@@ -131,6 +124,7 @@ div.hero {
   margin-top: 0;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 20px;
@@ -143,6 +137,7 @@ footer p {
   margin: 5px 0;
 }
 
+/* Hamburger Menu and Navigation */
 #hamburgerMenu {
   font-size: 3rem;
   border: 0;
@@ -187,6 +182,7 @@ footer p {
   display: block;
 }
 
+/* Responsive styles */
 @media (min-width: 640px) {
   #hamburgerMenu {
     display: none;
@@ -200,6 +196,7 @@ footer p {
     display: block;
     flex: 1 1 100%;
   }
+
   .iframe-container {
     display: flex;
     justify-content: center;
