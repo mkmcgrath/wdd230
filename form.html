@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Registration Form</title>
+    <meta
+      name="description"
+      content="Register an account with us to access exclusive content."
+    />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+  <body>
+    <h1>Register an Account</h1>
+    <form action="/submit" method="post">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+
+      <label for="confirm-password">Confirm Password</label>
+      <input
+        type="password"
+        id="confirm-password"
+        name="confirm-password"
+        required
+      />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="age">Age Range</label>
+      <input type="range" id="age" name="age" min="18" max="100" />
+
+      <button type="submit">Create Account</button>
+    </form>
+  </body>
+</html>
