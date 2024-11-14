@@ -1,0 +1,36 @@
+{
+  "wardInformation": {
+    "familyName": "Johnson",
+    "moveInDate": "2023-06-20",
+    "numberOfPeople": 5,
+    "visitedByBishopric": false,
+    "familyMembers": [
+      {
+        "name": "James Johnson",
+        "gender": "Male",
+        "birthdate": "1987-04-15"
+      },
+      {
+        "name": "Lisa Johnson",
+        "gender": "Female",
+        "birthdate": "1990-09-10"
+      },
+      {
+        "name": "Olivia Johnson",
+        "gender": "Female",
+        "birthdate": "2014-03-22"
+      },
+      {
+        "name": "Ethan Johnson",
+        "gender": "Male",
+        "birthdate": "2017-07-19"
+      },
+      {
+        "name": "Grace Johnson",
+        "gender": "Female",
+        "birthdate": "2021-11-05"
+      }
+    ]
+  }
+}
+
