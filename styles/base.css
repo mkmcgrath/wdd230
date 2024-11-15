@@ -182,6 +182,20 @@ footer p {
   display: block;
 }
 
+#learningActivities {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#learningActivities ul li {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
 /* Responsive styles */
 @media (min-width: 640px) {
   #hamburgerMenu {
