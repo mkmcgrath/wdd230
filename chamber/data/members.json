@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Sunrise Tech Solutions",
+    "address": "123 Tech Ave, Phoenix, AZ",
+    "phone": "480-123-4567",
+    "website": "https://sunrisetech.com",
+    "image": "sunrise-tech.jpg",
+    "membershipLevel": "Gold",
+    "description": "Providing top-tier IT support and solutions for local businesses."
+  },
+  {
+    "name": "Desert Landscaping Co.",
+    "address": "456 Desert Blvd, Phoenix, AZ",
+    "phone": "480-234-5678",
+    "website": "https://desertlandscaping.com",
+    "image": "desert-landscaping.jpg",
+    "membershipLevel": "Silver",
+    "description": "Experts in desert-friendly landscape design and maintenance."
+  },
+  {
+    "name": "Phoenix Health Group",
+    "address": "789 Wellness Way, Phoenix, AZ",
+    "phone": "480-345-6789",
+    "website": "https://phoenixhealth.com",
+    "image": "phoenix-health.jpg",
+    "membershipLevel": "Platinum",
+    "description": "Delivering quality healthcare services to the Phoenix community."
+  }
+]

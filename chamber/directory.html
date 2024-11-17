@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Phoenix Chamber of Commerce | Empowering Local Businesses</title>
+    <meta
+      name="description"
+      content="Phoenix Chamber of Commerce: Empowering businesses, fostering growth, and supporting economic development in Phoenix, AZ."
+    />
+
+    <meta name="author" content="Matthew" />
+
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <meta property="og:title" content="Matthew McGrath WDD 230" />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image" content="/images/thumbnail.webp" />
+
+    <meta
+      property="og:url"
+      content="https://mkmcgrath.github.io/wdd230/chamber/index.html"
+    />
+
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/medium.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/larger.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:description"
+      content="Web Frontend Development Course Assignment Portal by Matt McGrath"
+    />
+  </head>
+  <!-- end of head -->
+
+  <body>
+    <header>
+      <label class="switch">
+        <input type="checkbox" />
+        <span class="slider"></span>
+      </label>
+      <h1>Phoenix Chamber of Commerce</h1>
+      <!-- Your main navigation here -->
+      <button id="hamburgerMenu"></button>
+    </header>
+
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./discover.html">Discover</a></li>
+        <li><a href="./index.html">Resources</a></li>
+        <li><a href="./index.html">Join</a></li>
+      </ul>
+    </nav>
+
+	<main>
+  		<section class="menu">
+    		<button id="grid">⏹️ Grid View</button>
+    		<button id="list">📄 List View</button>
+  		</section>
+  		<hr />
+  		<article class="grid"></article>
+	</main>
+
+	<script src="./scripts/directory.js"></script>
+    
+
+
+    <footer>
+      <p>
+        Phoenix Chamber of Commerce
+        <br />phone: 480-555-4343
+
+        <br />email: phxchamber@aol.email <br />address: 483 Cactus Way, Phoenix
+        AZ, 85222
+      </p>
+      <p>
+        &copy;
+        <span id="currentYear"></span>
+        Matthew McGrath, WDD230 — <span id="lastModified"></span>
+      </p>
+    </footer>
+    <script src="./scripts/getdates.js"></script>
+    <script src="./scripts/hamburger.js"></script>
+    <script src="./scripts/darkmode.js"></script>
+  </body>
+</html>

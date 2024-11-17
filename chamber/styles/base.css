@@ -360,6 +360,42 @@ p {
   transform: scale(1.05); /* Image hover effect */
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.grid section {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+.list img {
+  display: none;
+}
+
+
 /* Responsive Layout for Mobile */
 @media (max-width: 768px) {
   .container {
