@@ -76,7 +76,7 @@
   }
 
   footer p:first-of-type {
-    width: 80%;
+    width: 100%;
     justify-self: center;
   }
 }
