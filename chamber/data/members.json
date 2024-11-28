@@ -4,7 +4,7 @@
     "address": "123 Tech Ave, Phoenix, AZ",
     "phone": "480-123-4567",
     "website": "https://sunrisetech.com",
-    "image": "sunrise-tech.jpg",
+    "image": "sunrise-tech.webp",
     "membershipLevel": "Gold",
     "description": "Providing top-tier IT support and solutions for local businesses."
   },
@@ -13,7 +13,7 @@
     "address": "456 Desert Blvd, Phoenix, AZ",
     "phone": "480-234-5678",
     "website": "https://desertlandscaping.com",
-    "image": "desert-landscaping.jpg",
+    "image": "desert-landscaping.webp",
     "membershipLevel": "Silver",
     "description": "Experts in desert-friendly landscape design and maintenance."
   },
@@ -22,7 +22,7 @@
     "address": "789 Wellness Way, Phoenix, AZ",
     "phone": "480-345-6789",
     "website": "https://phoenixhealth.com",
-    "image": "phoenix-health.jpg",
+    "image": "phoenix-health.webp",
     "membershipLevel": "Platinum",
     "description": "Delivering quality healthcare services to the Phoenix community."
   }
