@@ -6,9 +6,17 @@ body {
 }
 
 header {
-  background-color: #ffedb5;
+  background-color: #fff9e8;
   text-align: center;
   padding: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+
 }
 
 header h1 {
@@ -22,8 +30,11 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #007bff;
+  color: white;
+  background-color: #007bff;
   margin: 0 0.5rem;
+  padding: 4px;
+  border-radius: 10px;
 }
 
 main {
@@ -157,7 +168,6 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
 }
 
 footer a {
@@ -223,5 +233,6 @@ li {
   border-color: black;
   border-style: solid;
   border-radius: 12px;
+  grid-column: span 2;
 }
 
