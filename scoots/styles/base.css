@@ -238,3 +238,8 @@ li {
   grid-column: span 2;
 }
 
+td {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
