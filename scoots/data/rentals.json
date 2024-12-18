@@ -1,0 +1,53 @@
+[
+  {
+    "type": "Scooter",
+    "models": [
+      {
+        "name": "Honda Metro",
+        "maxPersons": 1,
+        "halfDayPrice": 20,
+        "fullDayPrice": 30
+      },
+      {
+        "name": "Honda Dio",
+        "maxPersons": 2,
+        "halfDayPrice": 30,
+        "fullDayPrice": 40
+      },
+      {
+        "name": "Honda PCX150",
+        "maxPersons": 2,
+        "halfDayPrice": 40,
+        "fullDayPrice": 50
+      }
+    ]
+  },
+  {
+    "type": "ATV",
+    "models": [
+      {
+        "name": "Honda Pioneer",
+        "maxPersons": 4,
+        "halfDayPrice": 50,
+        "fullDayPrice": 70
+      }
+    ]
+  },
+  {
+    "type": "Jeep",
+    "models": [
+      {
+        "name": "4-door with A/C",
+        "maxPersons": 5,
+        "halfDayPrice": 70,
+        "fullDayPrice": 100
+      },
+      {
+        "name": "2-door",
+        "maxPersons": 4,
+        "halfDayPrice": 60,
+        "fullDayPrice": 85
+      }
+    ]
+  }
+]

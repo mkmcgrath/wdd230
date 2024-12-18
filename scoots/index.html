@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>~Scoots - Cozumel Rentals - WDD230</title>
+  <meta name="description" content="WDD 230: Scoots Rental Project">
+  <meta name="author" content="Matt McGrath">
+  <link rel="icon" href="favicon.png">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>~Scoots~ Rentals</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="rentals.html">Rentals</a>
+      <a href="reservations.html">Reservations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+
+    <section id="hero">
+      <h2>Explore Cozumel with Ease!</h2>
+      <button onclick="window.location.href='reservations.html'">Make a Reservation</button>
+    </section>
+
+
+
+
+
+
+    <section class="rentals-summary">
+      <h2>Our Rentals</h2>
+        <div class="rentals-cards">
+          <div id="honda-scooters"> Honda Motor Scooters</div>
+          <div id="side-by-side-atvs">Side-by-Side ATVs</div>
+          <div id="jeeps">Jeeps</div>
+        </div>
+    </section>
+    <section id="weather">
+      <h2>Current Weather</h2>
+
+      <img id="weather-icon" alt="Weather icon">
+      <p>The current temperature in Cozumel is <span id="current-temp"></span>.</p>
+      <p>Current humidity: <span id="humidity"></span></p>
+      <figure>
+        <figcaption></figcaption>
+      </figure>
+      <p><span id="forecast-temp"></span></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 ~Scoots~</p>
+    <a href="attributions.html">Attributions</a>
+    <a href="#">Social Media</a>
+  </footer>
+  <script defer src="scripts/weather.js"></script>
+  <script defer src="scripts/weather-temp-max.js"></script>
+
+</body>
+</html>
+

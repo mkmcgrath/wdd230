@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>~Scoots Rentals</title>
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>~Scoots~ Rentals</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="rentals.html">Rentals</a>
+      <a href="reservations.html">Reservations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Available Rentals</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Model</th>
+          <th>Max Persons</th>
+          <th>Half Day Price</th>
+          <th>Full Day Price</th>
+        </tr>
+      </thead>
+      <tbody id="rental-table">
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    <p>&copy; 2024 ~Scoots~</p>
+    <a href="attributions.html">Attributions</a>
+  </footer>
+  <script src="scripts/populate-rentals.js"></script>
+</body>
+</html>
+
