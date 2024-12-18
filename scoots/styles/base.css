@@ -69,6 +69,28 @@ main {
   background-color: #0056b3;
 }
 
+.introduction{
+  justify-content: center;
+  grid-column: span 2;
+  font-size: 1.1rem;
+  padding: 20px;
+  margin-top: 43px;
+  width: 75%;
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 12px;
+
+}
+
+.introduction p {
+}
+
 .rentals-cards {
   display: flex;
   flex-direction: column;
@@ -119,6 +141,15 @@ main {
 
 #weather {
   margin-top: 1rem;
+  border-width: 4px;
+  padding: 15px;
+  margin: 25px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 12px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
@@ -183,5 +214,14 @@ form button:hover {
 li {
   list-style: none;
   margin-bottom: 10px;
+}
+
+.rentals {
+    border-width: 4px;
+  padding: 15px;
+  margin: 25px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 12px;
 }
 
