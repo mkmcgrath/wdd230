@@ -245,5 +245,7 @@ td {
 }
 
 #rental-table {
-  width: fit-content;
+  width: 80%;
+  height: 80%;
+  margin: auto;
 }
